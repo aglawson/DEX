@@ -3,6 +3,9 @@ pragma solidity ^0.8.0;
 
 import "./Wallet.sol";
 
+// All references to ETH are actually referring to WETH
+// This contract only handles ETH(WETH) to ERC20 pairings
+// Users must deposit ERC20 tokens before being able to create trades
 contract Dex is Wallet {
 
     enum Side {

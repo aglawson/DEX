@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# DEX
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+## Needed Improvements
+1. Enable exchanges between non WETH ERC20 Tokens (eg. LINK -> USDC)
+2. Enable trades without needing to deposit first
+3. Enable trading with ETH without Wrapping it into WETH
